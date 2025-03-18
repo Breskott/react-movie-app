@@ -1,11 +1,31 @@
-# React + Vite
+# React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Meu primeiro projeto em React - Uma aplicação para explorar e favoritar filmes.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi desenvolvido como uma introdução ao React, utilizando Vite como ferramenta de build. A aplicação permite aos usuários:
+
+- Navegar por filmes populares
+- Adicionar filmes aos favoritos
+- Visualizar detalhes dos filmes
+
+## Tecnologias Utilizadas
+
+- React
+- Vite
+- Context API para gerenciamento de estado
+- CSS para estilização
+
+## Como Executar
+
+```bash
+# Instalar dependências
+npm install
+
+# Executar em modo de desenvolvimento
+npm run dev
+```
 
 ## Expanding the ESLint configuration
 
